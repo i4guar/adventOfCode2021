@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC8A8D0A27573AE100D8FC28 /* dec1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8A8D0927573AE100D8FC28 /* dec1.swift */; };
 		DCB0FE342754E19F00873215 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB0FE332754E19F00873215 /* main.swift */; };
 		DCB0FE3C2754E42900873215 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = DCB0FE3B2754E42900873215 /* Algorithms */; };
 		DCB0FE3F2754E43E00873215 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = DCB0FE3E2754E43E00873215 /* Collections */; };
 		DCB0FE412754E43E00873215 /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = DCB0FE402754E43E00873215 /* DequeModule */; };
 		DCB0FE432754E43E00873215 /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = DCB0FE422754E43E00873215 /* OrderedCollections */; };
-		DCB0FE4E2754E9B600873215 /* dec0.txt in Resources */ = {isa = PBXBuildFile; fileRef = DCB0FE452754E56300873215 /* dec0.txt */; };
+		DCB0FE4E2754E9B600873215 /* dec1.txt in Resources */ = {isa = PBXBuildFile; fileRef = DCB0FE452754E56300873215 /* dec1.txt */; };
 		DCB0FE4F2754E9E700873215 /* codingResources.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = DCB0FE4A2754E7C900873215 /* codingResources.bundle */; };
 		DCBEE8C12756C6BE00425B91 /* Timing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBEE8C02756C6BE00425B91 /* Timing.swift */; };
 		DCBEE8C42756C6DF00425B91 /* FileReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBEE8C32756C6DF00425B91 /* FileReading.swift */; };
@@ -32,9 +33,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DC8A8D0927573AE100D8FC28 /* dec1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dec1.swift; sourceTree = "<group>"; };
 		DCB0FE302754E19F00873215 /* adventOfCode2021 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = adventOfCode2021; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB0FE332754E19F00873215 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		DCB0FE452754E56300873215 /* dec0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dec0.txt; sourceTree = "<group>"; };
+		DCB0FE452754E56300873215 /* dec1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dec1.txt; sourceTree = "<group>"; };
 		DCB0FE4A2754E7C900873215 /* codingResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = codingResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCBEE8C02756C6BE00425B91 /* Timing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timing.swift; sourceTree = "<group>"; };
 		DCBEE8C32756C6DF00425B91 /* FileReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReading.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				DCB0FE332754E19F00873215 /* main.swift */,
+				DC8A8D0927573AE100D8FC28 /* dec1.swift */,
 			);
 			path = adventOfCode2021;
 			sourceTree = "<group>";
@@ -92,7 +95,7 @@
 		DCB0FE442754E52600873215 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				DCB0FE452754E56300873215 /* dec0.txt */,
+				DCB0FE452754E56300873215 /* dec1.txt */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -195,7 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCB0FE4E2754E9B600873215 /* dec0.txt in Resources */,
+				DCB0FE4E2754E9B600873215 /* dec1.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +211,7 @@
 			files = (
 				DCB0FE342754E19F00873215 /* main.swift in Sources */,
 				DCBEE8C12756C6BE00425B91 /* Timing.swift in Sources */,
+				DC8A8D0A27573AE100D8FC28 /* dec1.swift in Sources */,
 				DCBEE8C42756C6DF00425B91 /* FileReading.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

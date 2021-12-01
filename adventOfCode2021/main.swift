@@ -7,9 +7,5 @@
 
 import Foundation
 
-timeAndPrint(title: "December 01") {
-    let contents = readPuzzle(number: 0)
-    for line in contents.split(separator:"\n") {
-        print(line)
-    }
-}
+puzzle1_1()
+puzzle1_2()

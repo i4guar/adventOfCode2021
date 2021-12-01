@@ -8,8 +8,8 @@
 import Foundation
 
 
-func readPuzzle(number: Int) -> String {
-    let filename = "dec\(number)"
+func readPuzzle(id: String) -> String {
+    let filename = "dec\(id)"
 
     // resource file setup https://stackoverflow.com/a/57093149/9142902
     let currentDirectoryURL = URL(fileURLWithPath: FileManager.default.currentDirectoryPath)
