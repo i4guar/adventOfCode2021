@@ -7,5 +7,3 @@
 
 import Foundation
 
-puzzle1_1()
-puzzle1_2()
