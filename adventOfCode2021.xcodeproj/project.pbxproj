@@ -19,6 +19,7 @@
 		DCB0FE4F2754E9E700873215 /* codingResources.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = DCB0FE4A2754E7C900873215 /* codingResources.bundle */; };
 		DCBEE8C12756C6BE00425B91 /* Timing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBEE8C02756C6BE00425B91 /* Timing.swift */; };
 		DCBEE8C42756C6DF00425B91 /* FileReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBEE8C32756C6DF00425B91 /* FileReading.swift */; };
+		DCC26F562759DDFD006E8A36 /* dec3.txt in Resources */ = {isa = PBXBuildFile; fileRef = DCC26F552759DDFD006E8A36 /* dec3.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +45,7 @@
 		DCB0FE4A2754E7C900873215 /* codingResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = codingResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCBEE8C02756C6BE00425B91 /* Timing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timing.swift; sourceTree = "<group>"; };
 		DCBEE8C32756C6DF00425B91 /* FileReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReading.swift; sourceTree = "<group>"; };
+		DCC26F552759DDFD006E8A36 /* dec3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dec3.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				DCB0FE452754E56300873215 /* dec1.txt */,
 				DC8FE4F727588AFA00C51972 /* dec2.txt */,
+				DCC26F552759DDFD006E8A36 /* dec3.txt */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC8FE4F827588AFA00C51972 /* dec2.txt in Resources */,
+				DCC26F562759DDFD006E8A36 /* dec3.txt in Resources */,
 				DCB0FE4E2754E9B600873215 /* dec1.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
